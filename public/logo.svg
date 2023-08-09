@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1000 1000" width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="215.192" y1="123.426" x2="215.192" y2="177.329" id="gradient-0" gradientTransform="matrix(8.354151, -8.341593, 18.547731, 18.575653, -4087.544099, -498.957672)">
+      <stop offset="0" style="stop-color: rgb(0, 12, 83);"/>
+      <stop offset="1" style="stop-color: rgb(0, 6, 39);"/>
+    </linearGradient>
+    <filter id="drop-shadow-filter-0" color-interpolation-filters="sRGB" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 2 2 8 0.5 rgba(0,0,0,1)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="2" dy="2"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,1)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="47.021" y1="28.085" x2="47.021" y2="59.815" id="gradient-1">
+      <stop offset="0" style="stop-color: rgba(254, 40, 40, 1)"/>
+      <stop offset="1" style="stop-color: rgba(191, 1, 1, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="16.979" y1="28.084" x2="16.979" y2="59.815" id="gradient-2">
+      <stop offset="0" style="stop-color: rgba(254, 40, 40, 1)"/>
+      <stop offset="1" style="stop-color: rgba(191, 1, 1, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="32" y1="41.26" x2="32" y2="61.733" id="gradient-3">
+      <stop offset="0" style="stop-color: rgba(254, 40, 40, 1)"/>
+      <stop offset="1" style="stop-color: rgba(191, 1, 1, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="32" y1="21.068" x2="32" y2="40.552" id="gradient-4">
+      <stop offset="0" style="stop-color: rgba(254, 40, 40, 1)"/>
+      <stop offset="1" style="stop-color: rgba(191, 1, 1, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="32" y1="18.82" x2="32" y2="30.099" id="gradient-5">
+      <stop offset="0" style="stop-color: rgb(228, 147, 7);"/>
+      <stop offset="1" style="stop-color: rgb(175, 116, 13);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="32" y1="2.266" x2="32" y2="27.099" id="gradient-6">
+      <stop offset="0" style="stop-color: rgba(228, 147, 7, 1)"/>
+      <stop offset="1" style="stop-color: rgb(175, 116, 13);"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: url(#gradient-0);"/>
+  <g transform="matrix(11.206395, 0, 0, 10.089672, 141.39534, 177.134277)" style="filter: url(#drop-shadow-filter-0);">
+    <path d="M 57.791 59.815 C 58.385 59.022 58.75 58.048 58.75 56.983 L 58.75 28.085 L 35.293 40.506 L 57.791 59.815 Z" style="fill: url(#gradient-1);"/>
+    <path d="M 5.25 28.084 L 5.25 56.983 C 5.25 58.048 5.615 59.022 6.209 59.815 L 28.707 40.506 L 5.25 28.084 Z" style="fill: url(#gradient-2);"/>
+    <path d="M 32.351 42.064 C 32.241 42.122 32.121 42.151 32 42.151 C 31.879 42.151 31.759 42.122 31.649 42.064 L 30.131 41.26 L 7.284 60.869 C 8.055 61.41 8.989 61.733 10 61.733 L 54 61.733 C 55.011 61.733 55.945 61.41 56.716 60.869 L 33.868 41.26 L 32.35 42.064 L 32.351 42.064 Z" style="fill: url(#gradient-3);"/>
+    <path d="M 54 21.069 L 43.43 21.069 L 46.611 27.518 C 46.725 27.75 46.712 28.025 46.575 28.246 C 46.438 28.466 46.198 28.6 45.938 28.6 L 35.932 28.6 L 32.531 32.001 C 32.385 32.147 32.193 32.221 32.001 32.221 C 31.809 32.221 31.617 32.148 31.471 32.001 L 28.07 28.6 L 18.064 28.6 C 17.805 28.6 17.564 28.466 17.427 28.246 C 17.29 28.026 17.277 27.751 17.391 27.518 L 20.572 21.069 L 10 21.069 C 7.141 21.053 4.996 23.582 5.25 26.387 L 32 40.552 L 58.75 26.387 C 59.004 23.582 56.859 21.052 54 21.068 L 54 21.069 Z" style="fill: url(#gradient-4);"/>
+    <path d="M 29.363 27.772 L 31.47 29.879 C 31.616 30.025 31.808 30.099 32 30.099 C 32.192 30.099 32.384 30.026 32.53 29.879 L 34.637 27.772 L 32 18.82 L 29.363 27.772 Z" style="fill: url(#gradient-5);"/>
+    <path d="M 19.838 26.745 C 19.975 26.965 20.215 27.099 20.475 27.099 L 27.998 27.099 L 31.281 15.954 C 31.375 15.635 31.668 15.416 32 15.416 C 32.332 15.416 32.625 15.635 32.719 15.954 L 36.002 27.099 L 43.525 27.099 C 43.784 27.099 44.025 26.965 44.162 26.745 C 44.299 26.525 44.312 26.25 44.198 26.017 L 32.673 2.651 C 32.42 2.138 31.58 2.138 31.327 2.651 L 19.802 26.017 C 19.688 26.249 19.701 26.524 19.838 26.745 Z" style="fill: url(#gradient-6);"/>
+  </g>
+</svg>
