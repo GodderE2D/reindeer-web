@@ -1,5 +1,3 @@
-# [Godder.xyz](https://godder.xyz/)
+# [Reindeer Website](https://reindeer.bsr.gg/)
 
-Welcome to v3 of the Godder.xyz website. Feel free to look around, contribute, steal code, or whatever you need to do.
-
-v3 hello world post: https://godder.xyz/blog/hello-alternate-world
+Website for the Reindeer website written using Next.js and Tailwind CSS.
