@@ -4,6 +4,7 @@ import { inter } from "./fonts";
 import NextTopLoader from "nextjs-toploader";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   title: "Reindeer - User reports Discord bot",
   description: "Reindeer is a Discord bot that helps server admins manage message and user reports better.",
   icons: ["/logo-rounded.png"],
-  themeColor: "#b91c1b",
+  themeColor: "#fe2828",
   openGraph: {
     type: "website",
     images: ["/logo-rounded.png"],
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         {children}
         <Footer commitSha={process.env.VERCEL_GIT_COMMIT_SHA} />
+        <Analytics />
       </body>
     </html>
   );
