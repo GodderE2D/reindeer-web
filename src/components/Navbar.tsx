@@ -6,7 +6,7 @@ import NavbarDropdown from "./NavbarDropdown";
 
 const PATHS = [
   { path: "/docs/introduction/getting-started", name: "Docs" },
-  { path: "/stats", name: "Stats" },
+  { path: "/metrics", name: "Stats" },
   { path: "/vote", name: "Vote", newTab: true },
   { path: "/discord", name: "Support Server", newTab: true },
 ];

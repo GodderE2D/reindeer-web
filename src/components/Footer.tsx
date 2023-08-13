@@ -7,7 +7,7 @@ const PATHS: Record<string, { path: string; name: string; newTab?: boolean }[]> 
   Reindeer: [
     { path: "/", name: "Home" },
     { path: "/docs/introduction/getting-started", name: "Docs" },
-    { path: "/stats", name: "Stats" },
+    { path: "/metrics", name: "Stats" },
   ],
   Links: [
     { path: "/invite", name: "Invite", newTab: true },

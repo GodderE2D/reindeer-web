@@ -29,6 +29,11 @@ const nextConfig = {
         permanent: false,
       },
       {
+        source: "/metrics",
+        destination: "https://metrics.bsr.gg/public-dashboards/4effb089fbba4b7488cc5465069fc877?orgId=1",
+        permanent: false,
+      },
+      {
         source: "/docs",
         destination: "/docs/introduction/getting-started",
         permanent: false,
