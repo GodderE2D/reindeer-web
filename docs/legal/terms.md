@@ -11,7 +11,7 @@ order: 1
 ## Definitions
 
 "Service" refers to the Reindeer bot (`Reindeer#2024`), [the website](https://reindeer.bsr.gg/), and
-[the API](https://api.reindeer.bsr.gg/).
+[the API](https://api-reindeer.bsr.gg/).
 
 "Terms" refers to this terms of service.
 
