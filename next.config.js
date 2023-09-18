@@ -5,7 +5,7 @@ const nextConfig = {
       {
         source: "/invite",
         destination:
-          "https://discord.com/api/oauth2/authorize?client_id=1126157327746211840&permissions=17180388560&scope=bot%20applications.commands&redirect_uri=https%3A%2F%2Freindeer.bsr.gg%2Fthanks&response_type=code",
+          "https://discord.com/api/oauth2/authorize?client_id=1126157327746211840&permissions=1392106794198&scope=bot%20applications.commands&redirect_uri=https%3A%2F%2Freindeer.bsr.gg%2Fthanks&response_type=code",
         permanent: false,
       },
       {
