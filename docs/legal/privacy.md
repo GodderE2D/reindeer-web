@@ -56,7 +56,7 @@ When using the bot, we also collect certain analytics.
 
 ## Contact
 
-You can email us at [goddere2d@modslides.com](mailto:goddere2d@modslides.com).
+You can email us at [goddere2d@bsr.gg](mailto:goddere2d@bsr.gg).
 
 You may contact us if you wish to delete your server's data as the server owner, or if you have accidentally given
 private or sensitive information to us.
