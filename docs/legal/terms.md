@@ -42,4 +42,4 @@ extent permitted by law. We do not warrant that the Service will be uninterrupte
 ## Contact
 
 If you have any questions about the Terms, please contact us at
-[goddere2d@bsr.gg](mailto:goddere2d@bsr.gg).
+[reindeer@bsr.gg](mailto:reindeer@bsr.gg).

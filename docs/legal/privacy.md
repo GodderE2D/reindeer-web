@@ -56,7 +56,7 @@ When using the bot, we also collect certain analytics.
 
 ## Contact
 
-You can email us at [goddere2d@bsr.gg](mailto:goddere2d@bsr.gg).
+You can email us at [reindeer@bsr.gg](mailto:reindeer@bsr.gg).
 
 You may contact us if you wish to delete your server's data as the server owner, or if you have accidentally given
 private or sensitive information to us.
