@@ -25,14 +25,7 @@ You can use the `/config` command to configure Reindeer after setup.
 
 ### How can I reset Reindeer?
 
-~~Kick the bot and re-invite it. **Be careful, this will reset all settings, **reports, and trackers**!**~~
-
-This doesn't work right now. Please DM `thee2d` if you wish to reset your server's data.
-
-### Reindeer was accidentally kicked and all of my server's data have been lost!
-
-Unfortunately, this is permanent. Reindeer deletes all data associated with the server if it leaves the server. This is
-to comply with Discord's developer terms.
+Use the `/config reset` command to reset all data associated with the server, including existing reports.
 
 ## Philosophy & Features
 
