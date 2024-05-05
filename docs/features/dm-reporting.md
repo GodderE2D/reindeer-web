@@ -24,8 +24,8 @@ the application.
 ![Add user app (step 2)](/docs-assets/features/dm-reporting/add-user-app-2.png)
 ![Add user app (step 3)](/docs-assets/features/dm-reporting/add-user-app-3.png)
 
-Members can report DMs by using the "Report DM message" context menu command or the `/report_dm message` command with
-the message ID.
+Members can report DMs by using the "Report DM message" context menu command. A slash command version is not offered
+because only context menu commands can allow the bot to see the message's information.
 
 You can access the context menu command by right-clicking (or long-pressing on mobile) on a message, and then selecting
 the command under "Apps". This will prompt you to select the server to report the message to.
