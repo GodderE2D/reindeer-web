@@ -5,6 +5,7 @@ import { HiOutlineShieldCheck } from "react-icons/hi2";
 import imageReporting from "../../public/reporting.png";
 import imageForum from "../../public/forum.png";
 import imageTracking from "../../public/tracking.png";
+import imageDMReports from "../../public/dm-reports-command.png";
 
 export default async function Home() {
   return (
@@ -111,6 +112,27 @@ export default async function Home() {
               </div>
               <div className="h-fit w-fit">
                 <Image src={imageTracking} alt="Example of a report forum channel" className="rounded-lg shadow-lg" />
+              </div>
+            </div>
+            <div className="mb-12 flex flex-col items-center gap-8 lg:flex-row-reverse lg:gap-16">
+              <div className="max-w-prose">
+                <h1 className="mb-4 text-2xl font-semibold text-slate-200 lg:text-3xl">Verify DM reports easily</h1>
+                <p className="mb-2">
+                  Ever wanted a way to truly verify reports for DM messages? With Reindeer, you can let server members
+                  report DM messages just like with server messages after adding the bot as a{" "}
+                  <a
+                    href="https://discord.com/developers/docs/tutorials/developing-a-user-installable-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-white underline"
+                  >
+                    User App
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="h-fit w-fit">
+                <Image src={imageDMReports} alt="Report DM command command" className="rounded-lg shadow-lg" />
               </div>
             </div>
           </div>
