@@ -15,8 +15,8 @@ export default function Drawer({
   page: Page;
   pagesTree: PagesTree;
 }) {
-  const isActive = (meta: Page["meta"]) =>
-    meta.slug === page.meta.slug && meta.category.slug === page.meta.category.slug;
+  const isActive = (otherPage: Page) =>
+    otherPage.meta.slug === page.meta.slug && otherPage.category.slug === page.category.slug;
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -64,16 +64,16 @@ export default function Drawer({
                       <div key={category.name} className="mb-8">
                         <h1 className="mb-3 cursor-text font-semibold text-slate-300">{category.name}</h1>
                         <ul className="-ml-px space-y-2 border-l border-slate-700">
-                          {pages.map(({ meta }) => (
+                          {pages.map((page) => (
                             <li
-                              key={meta.slug}
+                              key={page.meta.slug}
                               className={`-ml-px border-l pl-4 text-sm ${
-                                isActive(meta)
+                                isActive(page)
                                   ? "border-red-700 font-medium text-red-600 hover:border-red-500"
                                   : "border-slate-700 hover:border-slate-500 hover:text-slate-300"
                               }`}
                             >
-                              <Link href={`/docs/${category.slug}/${meta.slug}`}>{meta.title}</Link>
+                              <Link href={`/docs/${category.slug}/${page.meta.slug}`}>{page.meta.title}</Link>
                             </li>
                           ))}
                         </ul>

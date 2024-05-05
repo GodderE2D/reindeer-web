@@ -7,12 +7,12 @@ import Drawer from "./Drawer";
 export type Page = {
   meta: {
     title: string;
-    category: {
-      name: string;
-      slug: string;
-    };
     order: number;
     description: string;
+    slug: string;
+  };
+  category: {
+    name: string;
     slug: string;
   };
   html: ReactNode;
@@ -42,7 +42,7 @@ export default function MobileNav({ page, pagesTree }: { page: Page; pagesTree: 
           </button>
         </div>
         <div className="mb-1 flex items-center gap-1">
-          <span className="text-sm">{page.meta.category.name}</span>
+          <span className="text-sm">{page.category.name}</span>
           <HiChevronRight className="h-3 w-3 stroke-1" />
           <span className="text-sm text-slate-300">{page.meta.title}</span>
         </div>

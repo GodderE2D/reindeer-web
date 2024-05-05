@@ -1,10 +1,7 @@
 ---
 title: Frequently Asked Questions
-description: Frequently asked questions about Reindeer.
+description: Frequently asked questions about Reindeer
 slug: faq
-category:
-  slug: introduction
-  name: Introduction
 order: 2
 ---
 
@@ -26,6 +23,14 @@ You can use the `/config` command to configure Reindeer after setup.
 ### How can I reset Reindeer?
 
 Use the `/config reset` command to reset all data associated with the server, including existing reports.
+
+### How can I report a message in DMs?
+
+First, you need install Reindeer as a
+[User App](https://discord.com/developers/docs/tutorials/developing-a-user-installable-app). You can then use the
+"Report DM message" context menu command or the `/report_dm message` command with the message ID.
+
+See the [DM reporting](/docs/features/dm-reporting) page for more information.
 
 ## Philosophy & Features
 
